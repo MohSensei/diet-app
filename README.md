@@ -1,7 +1,3 @@
-Here's a detailed README for your Diet App project that you can include in your resume. This README will highlight the technologies used, the structure of the project, and its current status.
-
----
-
 # Diet App (Work in Progress)
 
 ## Overview
