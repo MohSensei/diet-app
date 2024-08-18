@@ -1,0 +1,115 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #2C2C2C; /* Blackish background */
+    color: #EAEAEA; /* Light gray text color for readability */
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main container to hold the whole page content */
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* Header Styling */
+header {
+    background-color: #3B82F6; /* Updated color for "My Progress" */
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Flex-grow content area */
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* Column layout for the content */
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Stats Section */
+.stats-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 20px 0;
+}
+
+.goal, .composition {
+    background-color: #1F1F1F; /* Darker background for sections */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #FFD700; /* Gold color for section headers */
+}
+
+/* Goal Section Text */
+.goal p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.goal p span {
+    font-weight: bold;
+    color: #FFD700; /* Gold color for important text */
+}
+
+/* Body Composition Text */
+.composition p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.composition p span {
+    font-weight: bold;
+    color: #FFD700; /* Gold color for important text */
+}
+
+/* Graphs Section */
+.graphs-section {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding: 20px 0;
+}
+
+.graph {
+    width: 45%;
+    background-color: #1F1F1F;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #3B82F6; /* Matches the My Progress header */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: auto; /* Pushes the footer to the bottom */
+}

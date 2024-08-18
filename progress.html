@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style_progress.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Progress</title>
 </head>
 <body>
-    <h1>Progress</h1>
+    <div class="container">
+        <header>
+            <h1>My Progress</h1>
+        </header>
+
+        <div class="content">
+            <div class="stats-section">
+                <div class="goal">
+                    <h2>Goal</h2>
+                    <p>Weight: <span>157.6lb</span></p>
+                    <p>Target: <span>159.2lb</span></p>
+                    <p>To Go: <span>1.6lb</span></p>
+                </div>
+                <div class="composition">
+                    <h2>Body Composition</h2>
+                    <p>Body Fat Percentage: <span>16.6%</span></p>
+                    <p>BMI: <span>22.82</span></p>
+                    <p>Lean Body Mass: <span>131.5kg</span></p>
+                </div>
+            </div>
+
+            <div class="graphs-section">
+                <div class="graph">
+                    <canvas id="weightProgressChart"></canvas>
+                </div>
+                <div class="graph">
+                    <canvas id="bodyCompositionChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Diet App</p>
+        </footer>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="js/progress.js"></script>
 </body>
 </html>
